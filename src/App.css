@@ -1,0 +1,119 @@
+body {
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", serif;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+button {
+  color: black;
+  font-family: "Raleway", serif;
+  background-color: transparent;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.Flex{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.authContainer {
+  border: solid 2px #7e6d54;
+  width: 35%;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #7e6d54;
+}
+
+.signInButton {
+  padding: 15px;
+  border: solid 2px #7e6d54;
+  box-shadow: 0 0 5px #7e6d54;
+  border-radius: 15px;
+  font-size: 18px;
+  background-color: rgb(32, 89, 98);
+  color: rgb(255, 255, 255);
+}
+
+.signOutButton {
+  padding: 15px;
+  border: solid 2px #7e6d54;
+  box-shadow: 0 0 5px #7e6d54;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.headerContainer, .inputContainer, .buttonContainer, .welcomeContainer, .signContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.planInput {
+  width: 260px;
+  padding: 15px;
+  border: solid 1px #7e6d54;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.planInput:focus {
+  outline: 2px solid #7e6d54;
+  box-shadow: 0 0 5px #7e6d54;
+}
+
+.addButton {
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 15px;
+  border: solid 2px #7e6d54;
+  box-shadow: 0 0 5px #7e6d54;
+  font-size: 18px;
+}
+
+.PlansMainContainer{
+  max-height: 570px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media (max-width: 1050px) {
+  body {
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: unset;
+    height: auto;
+  }
+  
+  .PlansMainContainer{
+    max-height: 1000px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: unset;
+    height: auto;
+  }
+
+  .PlansMainContainer{
+    max-height: none;
+  }
+}

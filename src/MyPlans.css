@@ -1,0 +1,33 @@
+.struckThrough {
+    text-decoration: line-through;
+}
+
+.parContainer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+}
+
+.planItem{
+    font-size: 30px;
+    margin-bottom:20px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    width: 100%;
+}
+
+.planItem:hover{
+    cursor: pointer;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.iconHover:hover {
+    cursor: pointer;
+}
+
