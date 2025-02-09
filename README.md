@@ -1,3 +1,5 @@
+Backend part of this project you can find [here](https://github.com/EkaTur/planner-backend).
+
 # Task Planner
 
 Welcome to **Task Planner** — a web application that allows users to save, edit, and delete their plans and tasks. User authentication is required to interact with the app. This app is perfect for managing personal tasks, projects, and daily plans.
