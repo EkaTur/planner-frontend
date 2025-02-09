@@ -43,5 +43,4 @@ This application is built using the following technologies:
 - **Database**: MongoDB
 - **Authentication**: Auth0 (for login and user management)
 - **Additional tools**: 
-  - JWT (JSON Web Token) for secure user authentication
   - Axios (or Fetch API) for making HTTP requests
